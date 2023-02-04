@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "Alef Education"
+version = "0.1.0"
+description = ""
+authors = ["Hassan Khwileh <hassan.khwileh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+tensorflow = "^2.4.1"
+sklearn = "^0.0"
+sentencepiece = "^0.1.95"
+pandas = "^1.2.4"
+jupyter = "^1.0.0"
+jupyterlab = "^3.0.14"
+pandas-profiling = {extras = ["notebook"], version = "^2.11.0"}
+tensorflow-hub = "^0.12.0"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
